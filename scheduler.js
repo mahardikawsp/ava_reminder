@@ -52,7 +52,7 @@ function startScheduler(client) {
           // Cek reminder reguler
           if (reminder.time === currentTime && reminder.days.includes(today)) {
             const greeting = getGreeting();
-            const msg = `${greeting}, tuan! ${reminder.message}`;
+            const msg = `${greeting}! ${reminder.message}`;
             client.sendMessage(user, msg);
             console.log(`✅ Reminder dikirim ke ${user} - ${reminder.time}`);
           }
