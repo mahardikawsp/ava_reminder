@@ -1,7 +1,7 @@
 {
   "6285156082750@c.us": {
     "active": true,
-    "repeat_3hour": true,
+    "repeat_3hour": false,
     "reminders": [
       {
         "time": "13:50",
@@ -35,5 +35,206 @@
     "active": true,
     "repeat_3hour": true,
     "reminders": []
+  },
+  "6289675745285@c.us": {
+    "active": true,
+    "repeat_3hour": false,
+    "reminders": [
+      {
+        "time": "18:30",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "jangan lupa absen pulang"
+      },
+      {
+        "time": "08:50",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "jangan lupa absen masuk"
+      },
+      {
+        "time": "05:00",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "solat subuh nda"
+      },
+      {
+        "time": "11:50",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "solat dhuhur nda"
+      },
+      {
+        "time": "14:50",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "solat ashar nda"
+      },
+      {
+        "time": "17:30",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "solat magrib nda"
+      },
+      {
+        "time": "18:40",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "solat isya nda"
+      }
+    ]
+  },
+  "62895366999754@c.us": {
+    "active": true,
+    "repeat_3hour": false,
+    "reminders": [
+      {
+        "time": "05:00",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "solat subuh va"
+      },
+      {
+        "time": "11:50",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "solat dhuhur va"
+      },
+      {
+        "time": "14:50",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "solat ashar va"
+      },
+      {
+        "time": "17:30",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "solat magrib va"
+      },
+      {
+        "time": "18:30",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "solat isya va"
+      },
+      {
+        "time": "09:00",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "sarapan opo va?"
+      },
+      {
+        "time": "18:50",
+        "days": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis",
+          "Jumat",
+          "Sabtu",
+          "Minggu"
+        ],
+        "message": "maem opo va?"
+      },
+      {
+        "time": "19:50",
+        "days": [
+          "Jumat"
+        ],
+        "message": "kesok mulih va"
+      }
+    ]
   }
 }
