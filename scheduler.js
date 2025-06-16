@@ -73,7 +73,7 @@ function startScheduler(client) {
 
 function startSchedulerEvery3Hours(client) {
   // Run every 3 hours (3 * 60 * 60 * 1000 = 10,800,000 milliseconds)
-  const THREE_HOURS = 3 * 60 * 60 * 1000;
+  const THREE_HOURS = 1 * 60 * 1000;
 
   setInterval(() => {
     const now = new Date();
