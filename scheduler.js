@@ -76,7 +76,7 @@ function startScheduler(client) {
 
 function startSchedulerEvery3Hours(client) {
   // Run every 3 hours (3 * 60 * 60 * 1000 = 10,800,000 milliseconds)
-  const THREE_HOURS = 1 * 60 * 1000;
+  const THREE_HOURS = 1 * 60 * 60 * 1000;
 
   setInterval(() => {
     // const now = new Date();
@@ -96,7 +96,7 @@ function startSchedulerEvery3Hours(client) {
       if (!data.active && !data.every_3hour) return;
 
       const greeting = getGreeting();
-      const msg = `${greeting}, sayang! Ini adalah pesan rutin dari bubuy love you. Waktu sekarang: ${currentTime} ${today}`;
+      const msg = `${greeting}, sayang! Ini adalah pesan rutin dari bubuy, amma pasti bisa pasti bisa hore! Waktu sekarang: ${currentTime} ${today}`;
       client.sendMessage(user, msg);
       console.log(`✅ [3-Hour] Periodic message sent to ${user} at ${currentTime}`);
     });
