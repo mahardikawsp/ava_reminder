@@ -17,14 +17,14 @@ function startScheduler(client) {
     // const now = new Date();
     const now = moment().tz('Asia/Jakarta');
     const currentTime = now.format('HH:mm');
-    const hours = String(now.getHours()).padStart(2, '0');
-    const minutes = String(now.getMinutes()).padStart(2, '0');
+    // const hours = String(now.getHours()).padStart(2, '0');
+    // const minutes = String(now.getMinutes()).padStart(2, '0');
     // const currentTime = `${hours}:${minutes}`;
     const today = getTodayLabel();
 
     // Format tanggal DD/MM/YYYY untuk one-time reminder
-    const currentDate = `${String(now.getDate()).padStart(2, '0')}/${String(now.getMonth() + 1).padStart(2, '0')}/${now.getFullYear()}`;
-
+    // const currentDate = `${String(now.getDate()).padStart(2, '0')}/${String(now.getMonth() + 1).padStart(2, '0')}/${now.getFullYear()}`;
+    const currentDate = now.format('DD/MM/YYYY');
     const users = getAllActiveReminders();
     let configChanged = false;
 
@@ -82,8 +82,8 @@ function startSchedulerEvery3Hours(client) {
     // const now = new Date();
     const now = moment().tz('Asia/Jakarta');
     const currentTime = now.format('HH:mm');
-    const hours = String(now.getHours()).padStart(2, '0');
-    const minutes = String(now.getMinutes()).padStart(2, '0');
+    // const hours = String(now.getHours()).padStart(2, '0');
+    // const minutes = String(now.getMinutes()).padStart(2, '0');
     // const currentTime = `${hours}:${minutes}`;
     const today = getTodayLabel();
 
