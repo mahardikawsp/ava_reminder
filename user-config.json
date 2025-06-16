@@ -30,5 +30,10 @@
         "message": "popo"
       }
     ]
+  },
+  "6281333037788@c.us": {
+    "active": true,
+    "repeat_3hour": true,
+    "reminders": []
   }
 }
