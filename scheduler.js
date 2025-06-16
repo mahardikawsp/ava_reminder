@@ -1,6 +1,7 @@
 const { getAllActiveReminders } = require('./handlers/commands');
 const { getGreeting, getTodayLabel } = require('./utils/time');
 const fs = require('fs');
+const moment = require('moment-timezone');
 const path = './user-config.json';
 
 function saveUserConfig(data) {
@@ -13,10 +14,12 @@ function saveUserConfig(data) {
 
 function startScheduler(client) {
   setInterval(() => {
-    const now = new Date();
+    // const now = new Date();
+    const now = moment().tz('Asia/Jakarta');
+    const currentTime = now.format('HH:mm');
     const hours = String(now.getHours()).padStart(2, '0');
     const minutes = String(now.getMinutes()).padStart(2, '0');
-    const currentTime = `${hours}:${minutes}`;
+    // const currentTime = `${hours}:${minutes}`;
     const today = getTodayLabel();
 
     // Format tanggal DD/MM/YYYY untuk one-time reminder
@@ -76,10 +79,12 @@ function startSchedulerEvery3Hours(client) {
   const THREE_HOURS = 1 * 60 * 1000;
 
   setInterval(() => {
-    const now = new Date();
+    // const now = new Date();
+    const now = moment().tz('Asia/Jakarta');
+    const currentTime = now.format('HH:mm');
     const hours = String(now.getHours()).padStart(2, '0');
     const minutes = String(now.getMinutes()).padStart(2, '0');
-    const currentTime = `${hours}:${minutes}`;
+    // const currentTime = `${hours}:${minutes}`;
     const today = getTodayLabel();
 
     console.log(`🕐 [3-Hour Scheduler] Running at ${currentTime} - ${today}`);
