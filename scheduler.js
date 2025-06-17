@@ -93,7 +93,7 @@ function startSchedulerEvery3Hours(client) {
     console.log(users, 'users')
     console.log(Object.entries(users), 'entries')
     Object.entries(users).forEach(([user, data]) => {
-      if (!data.active && !data.every_3hour) return;
+      if (!data.active || !data.every_3hour) return;
 
       const greeting = getGreeting();
       const msg = `${greeting}, sayang! Ini adalah pesan rutin dari bubuy, amma pasti bisa pasti bisa hore! Waktu sekarang: ${currentTime} ${today}`;
