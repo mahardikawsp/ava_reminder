@@ -98,7 +98,7 @@ function startSchedulerEvery3Hours(client) {
       if (user != '6281333037788@c.us') return;
 
       const greeting = getGreeting();
-      const msg = `${greeting}, sayang! Ini adalah pesan rutin dari bubuy, amma pasti bisa pasti bisa yaa semangat buat adek dan bubuy!`;
+      const msg = `assalamualaikum ${greeting}, sayang! Ini adalah pesan rutin dari hati bubuy, amma pasti bisa yakin bisa yaa semangat buat adek dan bubuy!`;
       client.sendMessage(user, msg);
       console.log(`✅ [3-Hour] Periodic message sent to ${user} at ${currentTime}`);
     });
